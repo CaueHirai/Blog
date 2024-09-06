@@ -1,0 +1,53 @@
+body {
+    font-family: system-ui;
+    color: white;
+    text-align: center;
+    background-image: url("https://st2.depositphotos.com/3054051/6338/v/450/depositphotos_63389379-stock-illustration-black-and-white-chess-pieces.jpg");
+  }
+  .imagem {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+    opacity: 0.2;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline
+  }
+  
+  .topo {
+    background-color: gray;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .topo li {
+    color: gray;
+  }
+  .topo ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 450px
+
+  }
+  .menu {
+    background-color: rgb(65, 122, 145);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .menu li {
+    color: rgb(160, 184, 207);
+  }
+  .menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+  }
